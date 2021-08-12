@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(https://media.istockphoto.com/vectors/confectionery-and-sweets-icons-vector-id970516982?k=6&m=970516982&s=612x612&w=0&h=r61-u2dS6QlHL55k0LjqDf9tcl9kAZ5UuSoY8rUMHHI=);
+    background-repeat: repeat;
+    background-size: 25%;
+}
+
+header {
+    background-color: rgb(228, 125, 125);
+    color: white;
+}
+
+header h1 {
+    margin: 0 5px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+nav {
+    background: linear-gradient(90deg, rgb(100, 98, 98), gray, lightgrey);
+}
+
+nav ul {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-right: 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration-line: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(51, 49, 49);
+    border-radius: 5%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    flex-basis: 250px;
+    margin: 5px;
+}
+
+.box img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10% 0;
+}
+
+.title {
+    background: linear-gradient(90deg, rgba(238, 102, 48, 0.658), rgb(233, 176, 162));
+    flex-basis: 250px;
+    margin: 5px;
+    height: 80px;
+    border-radius: 0 20px;
+    display: flex;
+    justify-items: flex-end;
+    align-items: flex-end;
+}
+
+.title {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.title a i {
+    color: black;
+}
+
+.title a i:hover {
+    color: #b91010;
+}
+
+footer {
+    background: linear-gradient(#654783, rgb(33, 26, 41));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a,
+footer p {
+    color: white;
+    padding-top: 5px;
+}
+
+footer a:hover {
+    font-size: larger;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:780px) and (max-width:1040px) {
+    .container {
+        max-width: 720px;
+        margin: 1px;
+        align-items: center;
+    }
+}
+
+@media (min-width:1300px) {
+    .container {
+        max-width: 1299px;
+        margin: 1px;
+        align-items: center;
+    }
+}
